@@ -272,3 +272,7 @@ footer {
 nav {
     margin-top: 20px; /* Ajoute une marge en haut */
 }
+
+.portrait {
+    margin-right: 20px; /* Espacement à droite */
+}
