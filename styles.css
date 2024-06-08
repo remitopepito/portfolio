@@ -266,3 +266,9 @@ footer {
     display: block; /* Pour centrer horizontalement */
     margin: 0 auto; /* Centrer l'image horizontalement dans son conteneur */
 }
+
+/* Ajoutez ceci à votre fichier CSS existant */
+
+nav {
+    margin-top: 20px; /* Ajoute une marge en haut */
+}
