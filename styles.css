@@ -259,3 +259,10 @@ footer {
     margin-left: 20px; /* Espace à gauche du texte */
     font-style: italic; /* Mettre le texte en italique */
 }
+
+.portrait img {
+    max-width: 100%; /* Image ne dépassera pas la largeur du cadre noir */
+    height: auto; /* Maintient le ratio hauteur-largeur de l'image */
+    display: block; /* Pour centrer horizontalement */
+    margin: 0 auto; /* Centrer l'image horizontalement dans son conteneur */
+}
