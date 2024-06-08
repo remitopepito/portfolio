@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Projets</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Styles pour les cartes de projets */
+        #projects {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .project-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            text-align: center;
+            width: 300px;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .project-card h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .project-card a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #000000;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .project-card a:hover {
+            background-color: #000000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="title">
+                Mes Projets
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="projects.html">Projets</a></li>
+                    <li><a href="about.html">À propos de moi</a></li>
+                    <li><a href="debrief.html">Mes études</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="projects">
+        <h2>Voici l'ensemble des projets que j'ai mené en BUT Science des Données.</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="image/stock-1.jpg" alt="Gestion de fichiers">
+                <h3>Gestion de fichiers</h3>
+                <a href="projets/gestionFichier.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-5.jpeg" alt="Étude démographique de la Martinique">
+                <h3>Étude démographique de la Martinique</h3>
+                <a href="projets/etuDemoMartinique.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-2.jpeg" alt="Création d'un reporting sur Excel">
+                <h3>Création d'un reporting sur Excel</h3>
+                <a href="projets/reportingXPNOTEX.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-4.jpeg" alt="Enquête sur le logement étudiant niortais">
+                <h3>Enquête sur le logement étudiant niortais</h3>
+                <a href="projets/enqLogEtu.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-3.jpeg" alt="Régression linéaire">
+                <h3>Régression linéaire</h3>
+                <a href="projets/regressionLineaire.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-6.jpeg" alt="Présentation d'un territoire économique et culturel">
+                <h3>Présentation d'un territoire économique et culturel</h3>
+                <a href="projets/presTerrEcoCult.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-8.jpeg" alt="Conception et implémentation d'une base de données">
+                <h3>Conception et implémentation d'une base de données</h3>
+                <a href="projets/creaGestBDR.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-9.jpeg" alt="Indicateurs de Performances">
+                <h3>Indicateurs de Performances</h3>
+                <a href="projets/indicateursDePerformances.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-10.jpeg" alt="Portfolio">
+                <h3>Portfolio</h3>
+                <a href="projets/portfolio.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-11.jpeg" alt="Échantillonnage et estimation">
+                <h3>Échantillonnage et estimation</h3>
+                <a href="projets/statInf.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-12.jpeg" alt="Challenge Dataviz">
+                <h3>Challenge Dataviz</h3>
+                <a href="projets/challengeDataviz.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-14.jpg" alt="Enquête sur le sport">
+                <h3>Enquête sur le sport</h3>
+                <a href="projets/enqueteSport.html">Voir le projet</a>
+            </div>
+            <div class="project-card">
+                <img src="image/stock-13.jpeg" alt="SAE / Analyse de données, Reporting et Datavisualisation">
+                <h3>SAE / Analyse de données, Reporting et Datavisualisation</h3>
+                <a href="projets/projetFinal.html">Voir le projet</a>
+            </div>
+            <!-- Ajoutez d'autres projets ici -->
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright">&copy; 2024 Rémi Pierron</p>
+    </footer>
+
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Cliquez sur un des liens ci-dessus pour voir les détails de chaque projet. Chaque lien vous dirigera vers une page dédiée décrivant le projet en question.</p>
+        </div>
+    </div>
+</body>
+</html>

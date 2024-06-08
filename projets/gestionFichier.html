@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE / Gestion de fichiers</title>
+    <link rel="stylesheet" href="../styles.css"> <!-- Chemin relatif pour accéder au fichier CSS -->
+    <style>
+        /* Styles CSS spécifiques à cette page */
+        img {
+            display: block; /* Pour centrer horizontalement */
+            margin: 50px auto; /* Ajoute une marge en haut et en bas, et centre verticalement */
+            max-width: 100%; /* Largeur maximale de l'image */
+            max-height: 400px; /* Hauteur maximale de l'image */
+            border-radius: 10px; /* Coins arrondis */
+        }
+
+        h2 {
+            margin-top: 20px; /* Ajoute une marge en haut du titre */
+            margin-bottom: 10px; /* Ajoute une marge en bas du titre */
+        }
+
+        p {
+            margin-bottom: 20px; /* Ajoute une marge en bas du texte */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="title">
+                SAE / Gestion de fichiers
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li> <!-- Chemin relatif pour accéder à la page d'accueil -->
+                    <li><a href="../projects.html">Projets</a></li>
+                    <li><a href="../about.html">À propos de moi</a></li>
+                    <li><a href="../debrief.html">Mes études</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="pills-container">
+            <div class="pills">
+                <span class="pill">Python</span>
+                <span class="pill">JSON/CSV</span>
+                <span class="pill">Microsoft Excel</span>
+                <!-- Ajoutez d'autres logiciels utilisés si nécessaire -->
+            </div>
+            <div class="project-note">Projet mené en binôme</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Trier. Ordonner. Convertir. Rendre exploitables les données qui nous sont fournies.</h2>
+        <img src="../image/stock-1.jpg" alt="Description de votre image"> <!-- Chemin relatif pour accéder à l'image -->
+        <h2>Quel était l'objectif de notre travail ?</h2>
+        <p>Nous disposions d'un fichier au format JSON, un format difficile à lire, qui contenait des données 
+            concernant des comorbidités de différentes pathologies. Afin de rendre le fichier exploitable, 
+            nous avons été chargés de créer un programme Python capable de le trier et de le convertir au format 
+            CSV pour pouvoir le lire sur Microsoft Excel.</p>
+        <h2>Comment avons-nous procédé ?</h2>
+        <p>Pour commencer, nous avons dû trouver le moyen de lire le fichier JSON avec le code Python. Ensuite, 
+            nous avons créé une boucle qui parcourait le fichier et qui alimentait une grande liste. 
+            Cette liste était ensuite transformée en fichier CSV, avec les normes spécifiées dans les consignes.</p>
+        <h2>Quelles difficultés avons-nous rencontrées ?</h2>
+        <p>La difficulté majeure a été de mettre au point la boucle dans le programme qui triait les données. 
+            Nous avons passé beaucoup de temps à la faire fonctionner. Néanmoins, nous avions une certaine avance par 
+            rapport au temps imparti pour terminer le projet, donc cela ne nous a pas nécessairement pénalisé. </p>
+        <h2>Quelle note avons-nous obtenue ?</h2>
+        <p>Notre travail a obtenu la note de 14/20.</p>
+        <h2>Quelles sont mes compétences acquises ?</h2>
+        <p>Cette SAE m'a permis de mieux comprendere l'utilité des listes et des dictionnaires sur Python. Plus globalement, j'ai appris 
+            à manipuler un fichier avec un format particulier pour le nettoyer et le trier avec de le rendre lisible et exploitable dans 
+            un format adéquat. J'ai donc progressé en Python.
+        </p>
+        <a href="../telechargements/saeProg.zip" download>Cliquez ici pour télécharger ce projet !</a>
+        <a href="../projects.html" class="back-button">Retour aux projets</a> 
+    </section>
+
+    <footer>
+        <p class="copyright">&copy; 2024 Rémi Pierron</p>
+    </footer>
+</body>
+</html>
